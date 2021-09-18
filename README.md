@@ -4,6 +4,6 @@ It is a bungee junmping destinations recommendation app that gives some recommen
 
 #### Tech stack used - HTML, CSS and React
 
-#### Project LIVE at [Books Recommendation App](https://epicbungeejumpers.netlify.app/)
+#### Project LIVE at [Bungee Jumping Destination Recommendation App](https://epicbungeejumpers.netlify.app/)
 
 #### [codesandbox project link](https://codesandbox.io/s/github/Meghana-sk/Epic-BungeeJumping-Destinations)
