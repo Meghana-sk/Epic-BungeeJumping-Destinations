@@ -86,9 +86,9 @@ var bungeeJumpingPlaceGuide = {
 var placesWeHave = Object.keys(bungeeJumpingPlaceGuide);
 
 export default function App() {
-  const [genreInput, setGenreInput] = useState("India");
-  function genreHandler(genre) {
-    setGenreInput(genre);
+  const [countryInput, setCountryInput] = useState("India");
+  function genreHandler(country) {
+    setCountryInput(country);
   }
 
   return (
@@ -96,16 +96,19 @@ export default function App() {
       <h1>Bungee Jumping</h1>
 
       <div>
-        {placesWeHave.map((genre) => (
-          <button className="genre-button" onClick={() => genreHandler(genre)}>
-            {genre}
+        {placesWeHave.map((country) => (
+          <button
+            className="country-button"
+            onClick={() => genreHandler(country)}
+          >
+            {country}
           </button>
         ))}
       </div>
 
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {bungeeJumpingPlaceGuide[genreInput].map((destination) => (
+          {bungeeJumpingPlaceGuide[countryInput].map((destination) => (
             <li className="destination-list">
               <div className="destination-name">{destination.place}</div>
 

@@ -43,7 +43,7 @@ button:focus {
   margin-right: auto;
 }
 
-.genre-button {
+.country-button {
   cursor: "pointer";
   background-color: #a2d2ff;
   border-radius: 0.8rem;
