@@ -83,7 +83,7 @@ var bungeeJumpingPlaceGuide = {
   ]
 };
 
-var booksWeHave = Object.keys(bungeeJumpingPlaceGuide);
+var placesWeHave = Object.keys(bungeeJumpingPlaceGuide);
 
 export default function App() {
   const [genreInput, setGenreInput] = useState("India");
@@ -96,7 +96,7 @@ export default function App() {
       <h1>Bungee Jumping</h1>
 
       <div>
-        {booksWeHave.map((genre) => (
+        {placesWeHave.map((genre) => (
           <button className="genre-button" onClick={() => genreHandler(genre)}>
             {genre}
           </button>
