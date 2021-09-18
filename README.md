@@ -1,21 +1,9 @@
 # Book-Recommendation-App
-It is a book recommendation app that gives some of my recommendation on genre - self help books, fiction, computer science books
+
+It is a bungee junmping destinations recommendation app that gives some recommendation on country - India, Africa and USA
 
 #### Tech stack used - HTML, CSS and React
 
-#### Project LIVE at [Books Recommendation App](https://book-recommendation.netlify.app/)
+#### Project LIVE at [Books Recommendation App](https://epicbungeejumpers.netlify.app/)
 
-#### [codesandbox project link](https://codesandbox.io/s/github/Meghana-sk/Book-Recommendation-App)
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### [codesandbox project link](https://codesandbox.io/s/github/Meghana-sk/Epic-BungeeJumping-Destinations)
