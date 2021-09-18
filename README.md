@@ -1,4 +1,4 @@
-# Book-Recommendation-App
+# Bungee Jumping Destination Guide
 
 It is a bungee junmping destinations recommendation app that gives some recommendation on country - India, Africa and USA
 
